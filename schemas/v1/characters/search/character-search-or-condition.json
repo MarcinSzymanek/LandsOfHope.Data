@@ -1,0 +1,16 @@
+{
+	"$id": "https://data.landsofhope.com/schemas/v1/characters/search/character-search-or-condition.json",
+	"additionalProperties": false,
+	"properties": {
+		"or": {
+			"items": {
+				"$ref": "/schemas/v1/characters/search/character-search-condition.json"
+			},
+			"minItems": 2,
+			"type": "array"
+		}
+	},
+	"required": ["or"],
+	"title": "CharacterSearchOrCondition",
+	"type": "object"
+}
