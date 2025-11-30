@@ -1,0 +1,14 @@
+{
+	"$id": "https://data.landsofhope.com/schemas/v1/chat/commands/ignore-users-result.json",
+	"properties": {
+		"$type": {
+			"const": "/v1/chat/commands/ignore-users-result"
+		},
+		"code": {
+			"const": "USERS_IGNORED"
+		}
+	},
+	"required": ["$type", "code"],
+	"title": "IgnoreUsersChatCommandResult",
+	"type": "object"
+}

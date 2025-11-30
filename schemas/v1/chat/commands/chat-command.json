@@ -3,6 +3,9 @@
 	"oneOf": [
 		{
 			"$ref": "/schemas/v1/chat/commands/clear-room-messages.json"
+		},
+		{
+			"$ref": "/schemas/v1/chat/commands/ignore-users.json"
 		}
 	],
 	"title": "ChatCommand"

@@ -22,6 +22,16 @@
 					"$ref": "/schemas/v1/chat/commands/emote-result.json"
 				}
 			}
+		},
+		{
+			"properties": {
+				"command": {
+					"$ref": "/schemas/v1/chat/commands/ignore-users.json"
+				},
+				"result": {
+					"$ref": "/schemas/v1/chat/commands/ignore-users-result.json"
+				}
+			}
 		}
 	],
 	"properties": {
