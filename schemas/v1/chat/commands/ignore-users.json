@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 	"$id": "https://data.landsofhope.com/schemas/v1/chat/commands/ignore-users.json",
 	"properties": {
 		"$type": {
@@ -16,3 +17,25 @@
 	"title": "IgnoreUsersChatCommand",
 	"type": "object"
 }
+=======
+    "$id": "https://data.landsofhope.com/schemas/v1/chat/commands/ignore-users.json",
+    "title": "IgnoreUsersChatCommand",
+    "type": "object",
+    "properties": {
+        "$type": {
+            "const": "/v1/chat/commands/ignore-users"
+        },
+        "ignored": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+
+    },
+    "required": [
+        "$type",
+        "ignored"
+    ]
+}
+>>>>>>> Stashed changes
